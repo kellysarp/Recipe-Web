@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Thank You</title><!-- The title of the page displayed in the browser tab -->
+    <meta name="viewport" content="width=device-width, initial scale=1"/><!-- Ensures the page is responsive -->
+    <link rel="stylesheet" type="text/css" href="project.css"><!--Link to EXternal CSS file-->
+    </head>
+    
+    <body>
+         <script src="projectscript.js"></script>
+        <header><!-- Links an external JavaScript file -->
+            <h1>Thank You!</h1> <!-- Main heading for the page -->
+        </header>
+   <!-- Navigation menu -->
+        <div class="other">
+       
+           <h2>Other Pages</h2> <!--Links to other pages-->
+           <nav>
+              
+           <ul>
+               <li><a href="friedrecipe.html">Fried Chicken Recipes</a></li>
+               
+               <li><a href="grilledrecipe.html">Grilled Chicken Recipes</a></li>
+       
+               <li><a href="soupyrecipe.html">Soupy Chicken Recipes</a></li>
+               
+               <li><a href="thankyou.html">Thank you page</a></li>
+           </ul>
+           </nav>
+        </div>
+       
+        <!-- Main content section-->
+       <div class="content">
+           <div class="center">
+               
+    
+           
+           <!-- Message to visitors -->
+           <p>I hope you were able to find a recipe that you enjoyed. </p>
+               
+            <!-- Section for sharing reviews -->
+            <h2>Share your review!</h2>
+               
+<!-- Recipe rating section -->
+    <h3>Rate Recipes:</h3>
+    <label for="recipeSelect">Choose a recipe:</label>
+    <select id="recipeSelect">
+        <option value="">-- Select a Recipe --</option>
+        <option value="Classic Fried Chicken">Classic Fried Chicken</option>
+        <option value="Korean Fried Chicken">Korean Fried Chicken</option>
+        <option value="Classic Grilled Chicken">Classic Grilled Chicken</option>
+        <option value="Spicy Grilled Chicken">Spicy Grilled Chicken</option>
+        <option value="Chicken Noodle Soup">Chicken Noodle Soup</option>
+        <option value="Spicy Noodle Soup">Spicy Noodle Soup</option>
+    </select>
+
+               <!-- Dropdown to select a rating -->
+    <label for="ratingSelect">Rate it:</label>
+    <select id="ratingSelect">
+        <option value="">-- Select a Rating --</option><!-- Placeholder option -->
+        <option value="⭐">⭐</option>
+        <option value="⭐⭐">⭐⭐</option>
+        <option value="⭐⭐⭐">⭐⭐⭐</option>
+        <option value="⭐⭐⭐⭐">⭐⭐⭐⭐</option>
+        <option value="⭐⭐⭐⭐⭐">⭐⭐⭐⭐⭐</option>
+    </select>
+    <button onclick="submitRating()">Submit Rating</button><!-- Button to submit the rating -->
+
+                <!-- Section to display submitted ratings -->
+    <h2>Submitted Ratings:</h2>
+    <div id="ratingSection"></div><!-- Container for displaying submitted ratings -->
+                   
+               </div>
+               
+           </div>
+    
+    
+        
+        
+        <!-- Footer section with contact information-->
+        <footer>
+            <!-- Contact email for visitors -->
+            <a href="mailto:kelly.sarpongknas@gmail.com">Email me!</a> <!--Email address-->
+           </footer>
+        
+    </body>
+</html>
+    
